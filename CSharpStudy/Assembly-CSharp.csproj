@@ -58,15 +58,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\OperatorDemo.cs" />
+    <Compile Include="Assets\Scripts\StaticClass\StaticClass.cs" />
     <Compile Include="Assets\Scripts\FunctionDemo.cs" />
     <Compile Include="Assets\Scripts\VariableDemo.cs" />
+    <Compile Include="Assets\Scripts\scene3\BaseClass2.cs" />
     <Compile Include="Assets\Scripts\LoopDemo.cs" />
     <Compile Include="Assets\Scripts\scene3\BaseClass.cs" />
     <Compile Include="Assets\Scripts\Hello.cs" />
     <Compile Include="Assets\Scripts\ArrayDemo.cs" />
     <Compile Include="Assets\Scripts\ConditionDemo.cs" />
-    <Compile Include="Assets\Scripts\scene3\BaseClass2.cs" />
-    <Compile Include="Assets\Scripts\StaticClass\StaticClass.cs" />
+    <Compile Include="Assets\Scripts\StaticClass\TClass.cs" />
+    <Compile Include="Assets\Scripts\StaticClass\TInterface.cs" />
+    <Compile Include="Assets\Scripts\StaticClass\TStruct.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
