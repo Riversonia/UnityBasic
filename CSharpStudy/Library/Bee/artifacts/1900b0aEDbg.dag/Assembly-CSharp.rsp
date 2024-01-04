@@ -352,12 +352,14 @@
 "Assets/Scripts/Hello.cs"
 "Assets/Scripts/LoopDemo.cs"
 "Assets/Scripts/OperatorDemo.cs"
+"Assets/Scripts/scene3.1/BaseDelegate.cs"
 "Assets/Scripts/scene3/BaseClass.cs"
 "Assets/Scripts/scene3/BaseClass2.cs"
 "Assets/Scripts/StaticClass/StaticClass.cs"
 "Assets/Scripts/StaticClass/TClass.cs"
 "Assets/Scripts/StaticClass/TInterface.cs"
 "Assets/Scripts/StaticClass/TStruct.cs"
+"Assets/Scripts/StaticClass/TypeChange.cs"
 "Assets/Scripts/VariableDemo.cs"
 -langversion:9.0
 
