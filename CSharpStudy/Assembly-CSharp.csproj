@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\OperatorDemo.cs" />
+    <Compile Include="Assets\Scripts\StaticClass\TypeChange.cs" />
     <Compile Include="Assets\Scripts\StaticClass\StaticClass.cs" />
     <Compile Include="Assets\Scripts\FunctionDemo.cs" />
     <Compile Include="Assets\Scripts\VariableDemo.cs" />
@@ -65,13 +66,15 @@
     <Compile Include="Assets\Scripts\scene3\BaseClass2.cs" />
     <Compile Include="Assets\Scripts\LoopDemo.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TInterface.cs" />
+    <Compile Include="Assets\Scripts\scene3.1\BaseDelegate.cs" />
     <Compile Include="Assets\Scripts\scene3\BaseClass.cs" />
     <Compile Include="Assets\Scripts\Hello.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TClass.cs" />
     <Compile Include="Assets\Scripts\ArrayDemo.cs" />
     <Compile Include="Assets\Scripts\ConditionDemo.cs" />
-    <Compile Include="Assets\Scripts\StaticClass\TypeChange.cs" />
-    <Compile Include="Assets\Scripts\scene3.1\BaseDelegate.cs" />
+    <Compile Include="Assets\Scripts\scene3.1\BoardCast.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Singleton.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Visit.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
