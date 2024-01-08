@@ -58,45 +58,52 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\OperatorDemo.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Factor\DellKeyboard.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Factor\DellBase.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TypeChange.cs" />
     <Compile Include="Assets\Scripts\StaticClass\StaticClass.cs" />
     <Compile Include="Assets\Scripts\scene3.1\BoardCast.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Adaptor\IosLine.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Adaptor\AndroidLine.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Factor\AbstructMouse.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Factor\HpBase.cs" />
     <Compile Include="Assets\Scripts\FunctionDemo.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Singleton.cs" />
     <Compile Include="Assets\Scripts\VariableDemo.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Base.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\HpMouse.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TStruct.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Factor\AbstructKeyboard.cs" />
     <Compile Include="Assets\Scripts\scene3\BaseClass2.cs" />
     <Compile Include="Assets\Scripts\LoopDemo.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TInterface.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Factor\FactorBase.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Adaptor\AdaptorMain.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\SampleFactor.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Adaptor\Adaptor.cs" />
     <Compile Include="Assets\Scripts\scene3.1\BaseDelegate.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AppleKeyoard.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Visit.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Hp.cs" />
     <Compile Include="Assets\Scripts\scene3\BaseClass.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Apple.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Dell.cs" />
     <Compile Include="Assets\Scripts\Hello.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Factor\AppleMouse.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TClass.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Factor\FactorMain.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Factor\HpKeyboard.cs" />
+    <Compile Include="Assets\Scripts\scene3.5\Factor\AppleBase.cs" />
     <Compile Include="Assets\Scripts\ArrayDemo.cs" />
     <Compile Include="Assets\Scripts\ConditionDemo.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Factor\AbstructMouse.cs" />
     <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\DellMouse.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\HpMouse.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Factor\FactorMain.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\SampleFactor.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Factor\AppleMouse.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Factor\FactorBase.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Factor\DellBase.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Factor\HpBase.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Factor\AppleBase.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Factor\DellKeyboard.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Factor\AbstructKeyboard.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Factor\HpKeyboard.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AppleKeyoard.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Base.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Dell.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Hp.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Apple.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Adaptor\Adaptor.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Adaptor\AndroidLine.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Adaptor\IosLine.cs" />
-    <Compile Include="Assets\Scripts\scene3.5\Adaptor\AdaptorMain.cs" />
+    <Compile Include="Assets\Scripts\sence4IO\String\StringTest.cs" />
+    <Compile Include="Assets\Scripts\sence4IO\String\StringBuilderTest.cs" />
+    <Compile Include="Assets\Scripts\sence4IO\File\FileStreamTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Resources\testfile.txt.txt" />
+    <None Include="Assets\Resources\testfile.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
