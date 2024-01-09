@@ -58,8 +58,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\OperatorDemo.cs" />
+    <Compile Include="Assets\Scripts\sence4IO\String\StringBuilderTest.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\DellKeyboard.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\DellBase.cs" />
+    <Compile Include="Assets\Scripts\sence4IO\String\StringTest.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TypeChange.cs" />
     <Compile Include="Assets\Scripts\StaticClass\StaticClass.cs" />
     <Compile Include="Assets\Scripts\scene3.1\BoardCast.cs" />
@@ -70,12 +72,14 @@
     <Compile Include="Assets\Scripts\FunctionDemo.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Singleton.cs" />
     <Compile Include="Assets\Scripts\VariableDemo.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\ArrayList1.cs" />
     <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Base.cs" />
     <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\HpMouse.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TStruct.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\AbstructKeyboard.cs" />
     <Compile Include="Assets\Scripts\scene3\BaseClass2.cs" />
     <Compile Include="Assets\Scripts\LoopDemo.cs" />
+    <Compile Include="Assets\Scripts\sence4IO\File\FileStreamTest.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TInterface.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\FactorBase.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Adaptor\AdaptorMain.cs" />
@@ -97,9 +101,13 @@
     <Compile Include="Assets\Scripts\ArrayDemo.cs" />
     <Compile Include="Assets\Scripts\ConditionDemo.cs" />
     <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\DellMouse.cs" />
-    <Compile Include="Assets\Scripts\sence4IO\String\StringTest.cs" />
-    <Compile Include="Assets\Scripts\sence4IO\String\StringBuilderTest.cs" />
-    <Compile Include="Assets\Scripts\sence4IO\File\FileStreamTest.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\List.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\HashTable.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\Dictionary.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\HashSet.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\LinkedList.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\Stack1.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\Queue1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\testfile.txt.txt" />
