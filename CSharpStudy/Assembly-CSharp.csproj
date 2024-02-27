@@ -59,29 +59,38 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\OperatorDemo.cs" />
     <Compile Include="Assets\Scripts\sence4IO\String\StringBuilderTest.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\LinkedList.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\DellKeyboard.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\DellBase.cs" />
     <Compile Include="Assets\Scripts\sence4IO\String\StringTest.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\HashSet.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TypeChange.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\Dictionary.cs" />
     <Compile Include="Assets\Scripts\StaticClass\StaticClass.cs" />
     <Compile Include="Assets\Scripts\scene3.1\BoardCast.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Adaptor\IosLine.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Adaptor\AndroidLine.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\AbstructMouse.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\HpBase.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\HashTable.cs" />
     <Compile Include="Assets\Scripts\FunctionDemo.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Move\InputManager.cs" />
     <Compile Include="Assets\Scripts\VariableDemo.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\Queue1.cs" />
     <Compile Include="Assets\Scripts\scene5DataStruct\ArrayList1.cs" />
     <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Base.cs" />
     <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\HpMouse.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\List.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TStruct.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\AbstructKeyboard.cs" />
     <Compile Include="Assets\Scripts\scene3\BaseClass2.cs" />
     <Compile Include="Assets\Scripts\LoopDemo.cs" />
     <Compile Include="Assets\Scripts\sence4IO\File\FileStreamTest.cs" />
+    <Compile Include="Assets\Scripts\Move\Move.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TInterface.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\FactorBase.cs" />
+    <Compile Include="Assets\Scripts\scene5DataStruct\Stack1.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Adaptor\AdaptorMain.cs" />
     <Compile Include="Assets\Scripts\scene3.5\SampleFactor.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Adaptor\Adaptor.cs" />
@@ -97,21 +106,38 @@
     <Compile Include="Assets\Scripts\StaticClass\TClass.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\FactorMain.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\HpKeyboard.cs" />
+    <Compile Include="Assets\Scripts\Move\KeyBoard.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\AppleBase.cs" />
+    <Compile Include="Assets\Scripts\Hit\hit.cs" />
     <Compile Include="Assets\Scripts\ArrayDemo.cs" />
     <Compile Include="Assets\Scripts\ConditionDemo.cs" />
     <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\DellMouse.cs" />
-    <Compile Include="Assets\Scripts\scene5DataStruct\List.cs" />
-    <Compile Include="Assets\Scripts\scene5DataStruct\HashTable.cs" />
-    <Compile Include="Assets\Scripts\scene5DataStruct\Dictionary.cs" />
-    <Compile Include="Assets\Scripts\scene5DataStruct\HashSet.cs" />
-    <Compile Include="Assets\Scripts\scene5DataStruct\LinkedList.cs" />
-    <Compile Include="Assets\Scripts\scene5DataStruct\Stack1.cs" />
-    <Compile Include="Assets\Scripts\scene5DataStruct\Queue1.cs" />
+    <Compile Include="Assets\Scripts\UI\UI.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Resources\testfile.txt.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Resources\testfile.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -773,6 +799,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
