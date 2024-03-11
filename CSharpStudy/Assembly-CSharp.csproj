@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\OperatorDemo.cs" />
+    <Compile Include="Assets\Scripts\UI\UI.cs" />
     <Compile Include="Assets\Scripts\sence4IO\String\StringBuilderTest.cs" />
     <Compile Include="Assets\Scripts\scene5DataStruct\LinkedList.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\DellKeyboard.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Assets\Scripts\scene5DataStruct\HashSet.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TypeChange.cs" />
     <Compile Include="Assets\Scripts\scene5DataStruct\Dictionary.cs" />
+    <Compile Include="Assets\Scripts\Unity3D\Trigger.cs" />
     <Compile Include="Assets\Scripts\StaticClass\StaticClass.cs" />
     <Compile Include="Assets\Scripts\scene3.1\BoardCast.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Adaptor\IosLine.cs" />
@@ -86,11 +88,13 @@
     <Compile Include="Assets\Scripts\scene3.5\Factor\AbstructKeyboard.cs" />
     <Compile Include="Assets\Scripts\scene3\BaseClass2.cs" />
     <Compile Include="Assets\Scripts\LoopDemo.cs" />
+    <Compile Include="Assets\Scripts\RegsiterAndLogin\RegsiterPanel.cs" />
     <Compile Include="Assets\Scripts\sence4IO\File\FileStreamTest.cs" />
     <Compile Include="Assets\Scripts\Move\Move.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TInterface.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\FactorBase.cs" />
     <Compile Include="Assets\Scripts\scene5DataStruct\Stack1.cs" />
+    <Compile Include="Assets\Scripts\Unity3D\Unity3D.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Adaptor\AdaptorMain.cs" />
     <Compile Include="Assets\Scripts\scene3.5\SampleFactor.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Adaptor\Adaptor.cs" />
@@ -100,19 +104,25 @@
     <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Hp.cs" />
     <Compile Include="Assets\Scripts\scene3\BaseClass.cs" />
     <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Apple.cs" />
+    <Compile Include="Assets\Scripts\RegsiterAndLogin\LoginPanel.cs" />
     <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\AbstructFactor_Dell.cs" />
     <Compile Include="Assets\Scripts\Hello.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\AppleMouse.cs" />
+    <Compile Include="Assets\Scripts\RegsiterAndLogin\GameManager.cs" />
     <Compile Include="Assets\Scripts\StaticClass\TClass.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\FactorMain.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\HpKeyboard.cs" />
     <Compile Include="Assets\Scripts\Move\KeyBoard.cs" />
     <Compile Include="Assets\Scripts\scene3.5\Factor\AppleBase.cs" />
+    <Compile Include="Assets\Scripts\RegsiterAndLogin\MainPanel.cs" />
     <Compile Include="Assets\Scripts\Hit\hit.cs" />
     <Compile Include="Assets\Scripts\ArrayDemo.cs" />
     <Compile Include="Assets\Scripts\ConditionDemo.cs" />
     <Compile Include="Assets\Scripts\scene3.5\AbstructFactor\DellMouse.cs" />
-    <Compile Include="Assets\Scripts\UI\UI.cs" />
+    <Compile Include="Assets\Scripts\RegsiterAndLogin\FloatWindow.cs" />
+    <Compile Include="Assets\Scripts\Unity3D\PhysicalRay.cs" />
+    <Compile Include="Assets\Scripts\CubeProtect\Enemy.cs" />
+    <Compile Include="Assets\Scripts\CubeProtect\Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
